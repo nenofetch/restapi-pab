@@ -1,4 +1,4 @@
-package com.nenofetch.restfulapi;
+package com.pab.android_client;
 
 import org.junit.Test;
 

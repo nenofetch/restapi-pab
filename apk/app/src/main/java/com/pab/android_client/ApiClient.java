@@ -1,11 +1,11 @@
-package com.nenofetch.restfulapi.services;
+package com.pab.android_client;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
     //link base url disesuaikan dengan Alamat ip masing-masing,
-    private static final String BASE_URL = "http://192.168.161.60/restfulapi-pab/";
+    private static final String BASE_URL = "http://192.168.0.224:3000/webserver/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
